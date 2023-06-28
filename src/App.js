@@ -14,7 +14,16 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Sanja Plazonic</small>
+          <small>
+            Coded by Sanja Plazonic and hosted on&nbsp;
+            <a
+              href="https://github.com/NjaSa58/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
