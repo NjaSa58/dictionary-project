@@ -4,14 +4,14 @@ import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
-    <div className="App">
-      <div className="container">
+    <div className="App bg-light">
+      <div className="container ">
         <header className="App-header">
           {/* img-fluid = full screen */}
           <img src={logo} alt="logo" className="App-logo img-fluid" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyWord="hello" />
         </main>
         <footer className="App-footer">
           <small>
